@@ -23,7 +23,7 @@ By the end of the project, you can expect to have a solid grasp of how text-to-i
 This repository consists of the following main components:
 - Jupyter Notebook – “Crash Course in Generative AI: Text-to-Image Generation”:
 A detailed, step-by-step notebook that covers both theory and practice. It includes explanations of core concepts, code snippets, and visualizations. Key topics covered in the notebook range from the basics of diffusion models and CLIP, through the architecture of Stable Diffusion, to a full example of fine-tuning and generating images. If you prefer learning by doing, you can run this notebook to follow along with the code and commentary.
-	•	Streamlit App – Stable_diffusion_app.py:
+- Streamlit App – Stable_diffusion_app.py:
 A lightweight web application interface for the Stable Diffusion model with the fine-tuned CLIP text encoder. This app allows you to input text prompts and generate images on the fly. It provides a simple sidebar to adjust generation settings (like the number of inference steps and guidance scale) and includes some preset example prompts. This is a convenient way to experiment interactively with the model after learning about it in the notebook. (Note: The app uses Streamlit and Hugging Face Diffusers under the hood. Running it will require the appropriate environment with those libraries, but setup instructions are omitted here since the focus is on conceptual learning.)
 
 ## Notebook Outline
